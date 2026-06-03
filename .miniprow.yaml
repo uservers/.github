@@ -1,0 +1,12 @@
+# Miniprow configuration for the uservers repos
+---
+lgtm:
+  self_allow: [puerco]
+  auto_apply: true
+
+approve:
+  allow_author: true
+  auto_apply: true
+
+override:
+  allow: [puerco]  # users who may /override 
